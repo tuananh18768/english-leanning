@@ -1,0 +1,31 @@
+.banner{
+    text-align: center;
+    background-color: #23085A;
+    overflow: hidden;
+    min-height: 600px;
+    position: relative;
+}
+.banner img{
+    width: calc(100% - 80px);
+}
+
+.contentHome{
+    position: absolute;
+    max-width: 460px;
+    height: 260px;
+    padding: 30px 30px 15px;
+    background-color: #fff;
+    border-top-right-radius: 50px;
+    bottom: 120px;
+    left: 120px;
+}
+.contentHome::before{
+    content: " ";
+    background-color: #23085A;
+    display: block;
+    width: 80px;
+    left: 40px;
+    height: 100%;
+    position: absolute;
+
+}

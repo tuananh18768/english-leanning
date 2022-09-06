@@ -1,0 +1,91 @@
+.header{
+    min-height: 160px;
+    background-color: #00953B;
+    position: relative;
+    padding: 0 40px;
+    
+}
+
+.left{
+    position: absolute;
+    top: 50%;
+    left: 175px;
+    transform: translate(-50%, -50%);
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo  img{
+    padding-right: 15px;
+    border-right: 1px solid white;
+}
+.left a{
+    color: white;
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.right{
+    position: absolute;
+    top: 0;
+    right: 40px;
+}
+.right button{
+    background-color: #23085A;
+    color: #5DEB4B;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin-right: 2px;
+}
+.header nav{
+    position: absolute;
+    bottom: 0;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #23085A;
+    padding: 10px 20px;
+    margin-right: 3px;
+    background-color: #eee;
+    display: inline-block;
+}
+nav ul .navDrop:hover .dropMenu{
+    display: block;
+}
+nav ul .navDrop{
+    position: relative;
+}
+
+nav ul .navDrop ul{
+    position: absolute;
+    top: 38px;
+    display: block;
+    padding: 0;
+    display: none;
+}
+nav ul .navDrop ul li{
+    display: block;
+    width: 100%;
+}
+nav ul .navDrop ul li a{
+    display: block;
+    background-color: white;
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 400;
+    width: 100%;
+    white-space: nowrap;
+}
+nav ul .navDrop ul li a:hover{
+    display: block;
+    background-color: #eee;
+}
